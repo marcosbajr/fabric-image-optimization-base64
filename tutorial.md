@@ -42,7 +42,7 @@ If the desired SharePoint site is not yet connected to your Lakehouse, select **
 
 ![SharePoint connection screen](https://github.com/marcosbajr/fabric-image-optimization-base64/blob/79c2504522671e66f06a48f4e748ea670ea45e32/images/04_conexao_sharepoint.png)
 
-![New SharePoint connection option](https://github.com/marcosbajr/fabric-image-optimization-base64/blob/79c2504522671e66f06a48f4e748ea670ea45e32/images/03_nova_conexao_sharepoint.png)
+![New SharePoint connection option](https://github.com/marcosbajr/fabric-image-optimization-base64/blob/3bb40a953369f7df6ab6d950bbd49dbc7169274c/images/03_nova_conexao.png)
 
 After connecting, navigate to the folder containing the images.
 
@@ -62,7 +62,7 @@ This change does **not** modify the original SharePoint folder) it only affects 
 
 *Essa alteração não modifica a pasta original no SharePoint, apenas o nome exibido dentro do Lakehouse.*
 
-![Rename folder in Lakehouse](https://github.com/marcosbajr/fabric-image-optimization-base64/blob/79c2504522671e66f06a48f4e748ea670ea45e32/images/06_etapa_selecao_pasta.png)
+![Rename folder in Lakehouse](https://github.com/marcosbajr/fabric-image-optimization-base64/blob/3bb40a953369f7df6ab6d950bbd49dbc7169274c/images/06_selecao_pasta.png)
 
 ---
 
