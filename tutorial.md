@@ -327,6 +327,22 @@ After creating the column, change the data category to **Image URL**.
 
 *Acesse “Ferramentas de Tabela” → “Nova Coluna” e utilize o código DAX disponibilizado para reconstruir a string Base64 completa por imagem.*
 
+```dax
+fat_fotos = 
+SUMMARIZE(
+    _gold_fat_fotos,
+    _gold_fat_fotos[identificacao],
+    "base64_foto",
+        CONCATENATEX(
+            _gold_fat_fotos,
+            _gold_fat_fotos[foto],
+            "",
+            _gold_fat_fotos[indice],
+            ASC
+        )
+)
+```
+
 *A partir desse momento, você terá apenas uma linha por imagem.*
 
 *Após criar a coluna, altere a categoria de dados para “URL da imagem”.*
