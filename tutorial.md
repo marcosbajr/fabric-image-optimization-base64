@@ -100,10 +100,9 @@ Inside the notebook, paste the provided Python code and update the variable **`A
 
 ```python
 # ============================================================
-# TEMPLATE REUTILIZÁVEL
 # Conversão de Imagens (OneLake / ABFS) → Base64 para Power BI
 # Ambiente: Microsoft Fabric / Spark
-# Autor: Seu Nome
+# Autor: Marcos Jr.
 # ============================================================
 
 # =========================
